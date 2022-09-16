@@ -9,42 +9,82 @@
 margin: 0%;
 background-color: rgb(85, 202, 202);
 height: auto;
-padding: 0%;
+padding: 1%;
+/* padding-top: 1%; */
 border: 0em;
-height: 80px;
+height: auto;
 width: auto;
 padding-bottom: 1rem;
+overflow: hidden;
+
+position: fixed;
+top: 0;
+width: 100%;
 }
 
 #div2{
-    margin: 5%;
-    background-color: rgb(181, 243, 88); 
+    margin: .5%;
+    background-color: rgb(191, 244, 112); 
     max-height: auto;
     position:inherit;
-    width: fit-content;
+    width: auto;
     padding-block: 1.5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    border-radius: 5em;
+    padding: .5em;
+    padding-left: 1em;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 25px;
 }
+
+#about{
+    margin: .5%;
+    background-color: rgb(191, 244, 112); 
+    max-height: auto;
+    position:inherit;
+    width: auto;
+    border-radius: 1em;
+    padding: .5em;
+    padding-left: 1em;
+    text-align: center;
+    font-size: 25px;
+}
+
 
 body{
 margin: 0%;
-background-color: rgb(231, 189, 241);
+background-color: rgb(253, 253, 253);
 font-family: 'Edu TAS Beginner', cursive;
 }
 
 #skills{
-    margin: 5%;
-    background-color: rgb(181, 243, 88); 
+    margin: .5%;
+    background-color: rgb(191, 244, 112); 
     max-height: auto;
     position:inherit;
-    width: fit-content;
-    border-radius: 5em;
-    padding: 1.5em;
+    width: auto;
+    border-radius: 1em;
+    padding: .5em;
+    padding-left: 1em;
+    text-align: center;
+    font-size: 25px;
 }
+
+
 
 a #port{
     padding: auto;
     font-size: 1.5em;
+}
+
+#head_two{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+/* #content {
+    position: relative;
+} */
+img #div2  {
+    float: right;
+    position: relative;
 }

@@ -1,5 +1,6 @@
-FROM node:alpine
+FROM alpine
 WORKDIR /app
+RUN apk add --update nodejs npm
 COPY package.json .
 RUN npm install
 COPY . . 

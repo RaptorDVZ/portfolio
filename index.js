@@ -8,6 +8,9 @@ app.get('/', (req,res)=>{
     res.sendFile(__dirname+"/index.html");
 })
 
+app.get('/index.css', (req,res)=>{
+    res.sendFile(__dirname+"/index.css");
+})
 
 app.get('/div.html', (req,res)=>{
     res.sendFile(__dirname+"/div.html");
