@@ -1,3 +1,7 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
 #port{
     margin: auto;
     padding: 1rem;
@@ -11,6 +15,7 @@ background-color: rgb(85, 202, 202);
 height: auto;
 padding: 1%;
 /* padding-top: 1%; */
+
 border: 0em;
 height: auto;
 width: auto;
@@ -20,6 +25,7 @@ overflow: hidden;
 position: fixed;
 top: 0;
 width: 100%;
+display: inline-block;
 }
 
 #div2{
@@ -69,11 +75,15 @@ font-family: 'Edu TAS Beginner', cursive;
     font-size: 25px;
 }
 
-
+#div a{
+color: aliceblue;
+padding: 1%;
+}
 
 a #port{
     padding: auto;
     font-size: 1.5em;
+
 }
 
 #head_two{
